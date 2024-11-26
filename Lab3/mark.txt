@@ -1,0 +1,647 @@
+#######################Part1###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 03:21:30 on Nov 06,2021
+vlog part1.v 
+-- Compiling module part1
+
+Top level modules:
+	part1
+End time: 03:21:30 on Nov 06,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/3/mark/run.do" work.part1_tb 
+# Start time: 03:21:32 on Nov 06,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part1_tb
+# Loading work.part1
+# do /cad2/ece241f/public/3/mark/run.do
+# input = 0101010, select = 0, your output = 0, golden_output = 0 PASSED
+# input = 0101010, select = 1, your output = 1, golden_output = 1 PASSED
+# input = 0101010, select = 2, your output = 0, golden_output = 0 PASSED
+# input = 0101010, select = 3, your output = 1, golden_output = 1 PASSED
+# input = 0101010, select = 4, your output = 0, golden_output = 0 PASSED
+# input = 0101010, select = 5, your output = 1, golden_output = 1 PASSED
+# input = 0101010, select = 6, your output = 0, golden_output = 0 PASSED
+# input = 1111000, select = 0, your output = 0, golden_output = 0 PASSED
+# input = 1111000, select = 1, your output = 0, golden_output = 0 PASSED
+# input = 1111000, select = 2, your output = 0, golden_output = 0 PASSED
+# input = 1111000, select = 3, your output = 1, golden_output = 1 PASSED
+# input = 1111000, select = 4, your output = 1, golden_output = 1 PASSED
+# input = 1111000, select = 5, your output = 1, golden_output = 1 PASSED
+# input = 1111000, select = 6, your output = 1, golden_output = 1 PASSED
+# End time: 03:21:32 on Nov 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 14
+Number of FAILED: 0
+part1 is done!
+#######################Part2###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 03:21:32 on Nov 06,2021
+vlog part2.v 
+-- Compiling module FullAdder
+-- Compiling module part2
+
+Top level modules:
+	part2
+End time: 03:21:32 on Nov 06,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/3/mark/run.do" work.part2_tb 
+# Start time: 03:21:33 on Nov 06,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part2_tb
+# Loading work.part2
+# Loading work.FullAdder
+# do /cad2/ece241f/public/3/mark/run.do
+# input a = 0000, input b = 0000, output = 0001, golden_output = 0001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0000, output = 0000, golden_output = 0000, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0001, output = 0010, golden_output = 0010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0000, input b = 0001, output = 0001, golden_output = 0001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0010, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0010, output = 0010, golden_output = 0010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0011, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0000, input b = 0011, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0100, output = 0101, golden_output = 0101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0100, output = 0100, golden_output = 0100, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0101, output = 0110, golden_output = 0110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0000, input b = 0101, output = 0101, golden_output = 0101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0110, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0110, output = 0110, golden_output = 0110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 0111, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0000, input b = 0111, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1000, output = 1001, golden_output = 1001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1000, output = 1000, golden_output = 1000, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1001, output = 1010, golden_output = 1010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0000, input b = 1001, output = 1001, golden_output = 1001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1010, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1010, output = 1010, golden_output = 1010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1011, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0000, input b = 1011, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1100, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1100, output = 1100, golden_output = 1100, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1101, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0000, input b = 1101, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1110, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1110, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0000, input b = 1111, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0000, input b = 1111, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0000, output = 0010, golden_output = 0010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0000, output = 0001, golden_output = 0001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0001, output = 0011, golden_output = 0011, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0001, output = 0010, golden_output = 0010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0010, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 0010, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0011, output = 0101, golden_output = 0101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 0011, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 0100, output = 0110, golden_output = 0110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0100, output = 0101, golden_output = 0101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0101, output = 0111, golden_output = 0111, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0101, output = 0110, golden_output = 0110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 0110, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0001, input b = 0110, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 0111, output = 1001, golden_output = 1001, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0001, input b = 0111, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0001, input b = 1000, output = 1010, golden_output = 1010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 1000, output = 1001, golden_output = 1001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 1001, output = 1011, golden_output = 1011, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 1001, output = 1010, golden_output = 1010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 1010, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 1010, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 1011, output = 1101, golden_output = 1101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 1011, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0001, input b = 1100, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 1100, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 1101, output = 1111, golden_output = 1111, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 1101, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0001, input b = 1110, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0001, input b = 1110, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0001, input b = 1111, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0001, input b = 1111, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0010, input b = 0000, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0000, output = 0010, golden_output = 0010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0001, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 0001, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0010, output = 0101, golden_output = 0101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 0010, output = 0100, golden_output = 0100, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 0011, output = 0110, golden_output = 0110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 0011, output = 0101, golden_output = 0101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 0100, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0100, output = 0110, golden_output = 0110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0101, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0010, input b = 0101, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 0110, output = 1001, golden_output = 1001, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0010, input b = 0110, output = 1000, golden_output = 1000, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0010, input b = 0111, output = 1010, golden_output = 1010, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0010, input b = 0111, output = 1001, golden_output = 1001, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0010, input b = 1000, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 1000, output = 1010, golden_output = 1010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 1001, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 1001, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 1010, output = 1101, golden_output = 1101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 1010, output = 1100, golden_output = 1100, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 1011, output = 1110, golden_output = 1110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0010, input b = 1011, output = 1101, golden_output = 1101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0010, input b = 1100, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 1100, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 1101, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0010, input b = 1101, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0010, input b = 1110, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0010, input b = 1110, output = 0000, golden_output = 0000, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0010, input b = 1111, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0010, input b = 1111, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0011, input b = 0000, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0000, output = 0011, golden_output = 0011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0011, input b = 0001, output = 0101, golden_output = 0101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0001, output = 0100, golden_output = 0100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0010, output = 0110, golden_output = 0110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0010, output = 0101, golden_output = 0101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0011, input b = 0011, output = 0111, golden_output = 0111, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0011, output = 0110, golden_output = 0110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 0100, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0011, input b = 0100, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0011, input b = 0101, output = 1001, golden_output = 1001, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0011, input b = 0101, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0011, input b = 0110, output = 1010, golden_output = 1010, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0011, input b = 0110, output = 1001, golden_output = 1001, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0011, input b = 0111, output = 1011, golden_output = 1011, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0011, input b = 0111, output = 1010, golden_output = 1010, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0011, input b = 1000, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 1000, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0011, input b = 1001, output = 1101, golden_output = 1101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 1001, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 1010, output = 1110, golden_output = 1110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 1010, output = 1101, golden_output = 1101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 0011, input b = 1011, output = 1111, golden_output = 1111, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 1011, output = 1110, golden_output = 1110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 0011, input b = 1100, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0011, input b = 1100, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0011, input b = 1101, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0011, input b = 1101, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0011, input b = 1110, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0011, input b = 1110, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0011, input b = 1111, output = 0011, golden_output = 0011, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0011, input b = 1111, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0100, input b = 0000, output = 0101, golden_output = 0101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 0000, output = 0100, golden_output = 0100, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 0001, output = 0110, golden_output = 0110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0100, input b = 0001, output = 0101, golden_output = 0101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 0010, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 0010, output = 0110, golden_output = 0110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 0011, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0100, input b = 0011, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 0100, output = 1001, golden_output = 1001, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0100, input b = 0100, output = 1000, golden_output = 1000, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0100, input b = 0101, output = 1010, golden_output = 1010, carry_out = 0101, golden_carry_out = 0101, PASSED
+# input a = 0100, input b = 0101, output = 1001, golden_output = 1001, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0100, input b = 0110, output = 1011, golden_output = 1011, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0100, input b = 0110, output = 1010, golden_output = 1010, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0100, input b = 0111, output = 1100, golden_output = 1100, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0100, input b = 0111, output = 1011, golden_output = 1011, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0100, input b = 1000, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 1000, output = 1100, golden_output = 1100, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 1001, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0100, input b = 1001, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 1010, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 1010, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 1011, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0100, input b = 1011, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0100, input b = 1100, output = 0001, golden_output = 0001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0100, input b = 1100, output = 0000, golden_output = 0000, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0100, input b = 1101, output = 0010, golden_output = 0010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 0100, input b = 1101, output = 0001, golden_output = 0001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0100, input b = 1110, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0100, input b = 1110, output = 0010, golden_output = 0010, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0100, input b = 1111, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0100, input b = 1111, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0101, input b = 0000, output = 0110, golden_output = 0110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0101, input b = 0000, output = 0101, golden_output = 0101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0101, input b = 0001, output = 0111, golden_output = 0111, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0101, input b = 0001, output = 0110, golden_output = 0110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0101, input b = 0010, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0101, input b = 0010, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0101, input b = 0011, output = 1001, golden_output = 1001, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0101, input b = 0011, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0101, input b = 0100, output = 1010, golden_output = 1010, carry_out = 0101, golden_carry_out = 0101, PASSED
+# input a = 0101, input b = 0100, output = 1001, golden_output = 1001, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0101, input b = 0101, output = 1011, golden_output = 1011, carry_out = 0101, golden_carry_out = 0101, PASSED
+# input a = 0101, input b = 0101, output = 1010, golden_output = 1010, carry_out = 0101, golden_carry_out = 0101, PASSED
+# input a = 0101, input b = 0110, output = 1100, golden_output = 1100, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0101, input b = 0110, output = 1011, golden_output = 1011, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0101, input b = 0111, output = 1101, golden_output = 1101, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0101, input b = 0111, output = 1100, golden_output = 1100, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0101, input b = 1000, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0101, input b = 1000, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0101, input b = 1001, output = 1111, golden_output = 1111, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0101, input b = 1001, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 0101, input b = 1010, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0101, input b = 1010, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0101, input b = 1011, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0101, input b = 1011, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0101, input b = 1100, output = 0010, golden_output = 0010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 0101, input b = 1100, output = 0001, golden_output = 0001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0101, input b = 1101, output = 0011, golden_output = 0011, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 0101, input b = 1101, output = 0010, golden_output = 0010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 0101, input b = 1110, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0101, input b = 1110, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0101, input b = 1111, output = 0101, golden_output = 0101, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0101, input b = 1111, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0110, input b = 0000, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0110, input b = 0000, output = 0110, golden_output = 0110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0110, input b = 0001, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0110, input b = 0001, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0110, input b = 0010, output = 1001, golden_output = 1001, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0110, input b = 0010, output = 1000, golden_output = 1000, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0110, input b = 0011, output = 1010, golden_output = 1010, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0110, input b = 0011, output = 1001, golden_output = 1001, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0110, input b = 0100, output = 1011, golden_output = 1011, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0110, input b = 0100, output = 1010, golden_output = 1010, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0110, input b = 0101, output = 1100, golden_output = 1100, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0110, input b = 0101, output = 1011, golden_output = 1011, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0110, input b = 0110, output = 1101, golden_output = 1101, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0110, input b = 0110, output = 1100, golden_output = 1100, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0110, input b = 0111, output = 1110, golden_output = 1110, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0110, input b = 0111, output = 1101, golden_output = 1101, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0110, input b = 1000, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0110, input b = 1000, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0110, input b = 1001, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0110, input b = 1001, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0110, input b = 1010, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0110, input b = 1010, output = 0000, golden_output = 0000, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0110, input b = 1011, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0110, input b = 1011, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0110, input b = 1100, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0110, input b = 1100, output = 0010, golden_output = 0010, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0110, input b = 1101, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0110, input b = 1101, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0110, input b = 1110, output = 0101, golden_output = 0101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0110, input b = 1110, output = 0100, golden_output = 0100, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0110, input b = 1111, output = 0110, golden_output = 0110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0110, input b = 1111, output = 0101, golden_output = 0101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0111, input b = 0000, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0000, output = 0111, golden_output = 0111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0111, input b = 0001, output = 1001, golden_output = 1001, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0001, output = 1000, golden_output = 1000, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0010, output = 1010, golden_output = 1010, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0010, output = 1001, golden_output = 1001, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0111, input b = 0011, output = 1011, golden_output = 1011, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0011, output = 1010, golden_output = 1010, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0100, output = 1100, golden_output = 1100, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0100, output = 1011, golden_output = 1011, carry_out = 0100, golden_carry_out = 0100, PASSED
+# input a = 0111, input b = 0101, output = 1101, golden_output = 1101, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0101, output = 1100, golden_output = 1100, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0110, output = 1110, golden_output = 1110, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0110, output = 1101, golden_output = 1101, carry_out = 0110, golden_carry_out = 0110, PASSED
+# input a = 0111, input b = 0111, output = 1111, golden_output = 1111, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 0111, output = 1110, golden_output = 1110, carry_out = 0111, golden_carry_out = 0111, PASSED
+# input a = 0111, input b = 1000, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1000, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 0111, input b = 1001, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1001, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1010, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1010, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0111, input b = 1011, output = 0011, golden_output = 0011, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1011, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1100, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1100, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 0111, input b = 1101, output = 0101, golden_output = 0101, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1101, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1110, output = 0110, golden_output = 0110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1110, output = 0101, golden_output = 0101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 0111, input b = 1111, output = 0111, golden_output = 0111, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 0111, input b = 1111, output = 0110, golden_output = 0110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1000, input b = 0000, output = 1001, golden_output = 1001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0000, output = 1000, golden_output = 1000, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0001, output = 1010, golden_output = 1010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1000, input b = 0001, output = 1001, golden_output = 1001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0010, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0010, output = 1010, golden_output = 1010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0011, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1000, input b = 0011, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0100, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0100, output = 1100, golden_output = 1100, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0101, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1000, input b = 0101, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0110, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0110, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 0111, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1000, input b = 0111, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1000, input b = 1000, output = 0001, golden_output = 0001, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1000, output = 0000, golden_output = 0000, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1001, output = 0010, golden_output = 0010, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1000, input b = 1001, output = 0001, golden_output = 0001, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1010, output = 0011, golden_output = 0011, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1010, output = 0010, golden_output = 0010, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1011, output = 0100, golden_output = 0100, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1000, input b = 1011, output = 0011, golden_output = 0011, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1100, output = 0101, golden_output = 0101, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1100, output = 0100, golden_output = 0100, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1101, output = 0110, golden_output = 0110, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1000, input b = 1101, output = 0101, golden_output = 0101, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1110, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1110, output = 0110, golden_output = 0110, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1000, input b = 1111, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1000, input b = 1111, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1001, input b = 0000, output = 1010, golden_output = 1010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1001, input b = 0000, output = 1001, golden_output = 1001, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1001, input b = 0001, output = 1011, golden_output = 1011, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1001, input b = 0001, output = 1010, golden_output = 1010, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1001, input b = 0010, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1001, input b = 0010, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1001, input b = 0011, output = 1101, golden_output = 1101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1001, input b = 0011, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1001, input b = 0100, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1001, input b = 0100, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1001, input b = 0101, output = 1111, golden_output = 1111, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1001, input b = 0101, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1001, input b = 0110, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1001, input b = 0110, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1001, input b = 0111, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1001, input b = 0111, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1001, input b = 1000, output = 0010, golden_output = 0010, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1001, input b = 1000, output = 0001, golden_output = 0001, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1001, input b = 1001, output = 0011, golden_output = 0011, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1001, input b = 1001, output = 0010, golden_output = 0010, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1001, input b = 1010, output = 0100, golden_output = 0100, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1001, input b = 1010, output = 0011, golden_output = 0011, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1001, input b = 1011, output = 0101, golden_output = 0101, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1001, input b = 1011, output = 0100, golden_output = 0100, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1001, input b = 1100, output = 0110, golden_output = 0110, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1001, input b = 1100, output = 0101, golden_output = 0101, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1001, input b = 1101, output = 0111, golden_output = 0111, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1001, input b = 1101, output = 0110, golden_output = 0110, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1001, input b = 1110, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1001, input b = 1110, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1001, input b = 1111, output = 1001, golden_output = 1001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1001, input b = 1111, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1010, input b = 0000, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1010, input b = 0000, output = 1010, golden_output = 1010, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1010, input b = 0001, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1010, input b = 0001, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1010, input b = 0010, output = 1101, golden_output = 1101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 1010, input b = 0010, output = 1100, golden_output = 1100, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 1010, input b = 0011, output = 1110, golden_output = 1110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1010, input b = 0011, output = 1101, golden_output = 1101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 1010, input b = 0100, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1010, input b = 0100, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1010, input b = 0101, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1010, input b = 0101, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1010, input b = 0110, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1010, input b = 0110, output = 0000, golden_output = 0000, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1010, input b = 0111, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1010, input b = 0111, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1010, input b = 1000, output = 0011, golden_output = 0011, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1010, input b = 1000, output = 0010, golden_output = 0010, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1010, input b = 1001, output = 0100, golden_output = 0100, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1010, input b = 1001, output = 0011, golden_output = 0011, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1010, input b = 1010, output = 0101, golden_output = 0101, carry_out = 1010, golden_carry_out = 1010, PASSED
+# input a = 1010, input b = 1010, output = 0100, golden_output = 0100, carry_out = 1010, golden_carry_out = 1010, PASSED
+# input a = 1010, input b = 1011, output = 0110, golden_output = 0110, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1010, input b = 1011, output = 0101, golden_output = 0101, carry_out = 1010, golden_carry_out = 1010, PASSED
+# input a = 1010, input b = 1100, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1010, input b = 1100, output = 0110, golden_output = 0110, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1010, input b = 1101, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1010, input b = 1101, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1010, input b = 1110, output = 1001, golden_output = 1001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1010, input b = 1110, output = 1000, golden_output = 1000, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1010, input b = 1111, output = 1010, golden_output = 1010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1010, input b = 1111, output = 1001, golden_output = 1001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1011, input b = 0000, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1011, input b = 0000, output = 1011, golden_output = 1011, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1011, input b = 0001, output = 1101, golden_output = 1101, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1011, input b = 0001, output = 1100, golden_output = 1100, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1011, input b = 0010, output = 1110, golden_output = 1110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1011, input b = 0010, output = 1101, golden_output = 1101, carry_out = 0010, golden_carry_out = 0010, PASSED
+# input a = 1011, input b = 0011, output = 1111, golden_output = 1111, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1011, input b = 0011, output = 1110, golden_output = 1110, carry_out = 0011, golden_carry_out = 0011, PASSED
+# input a = 1011, input b = 0100, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 0100, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1011, input b = 0101, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 0101, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 0110, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 0110, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1011, input b = 0111, output = 0011, golden_output = 0011, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 0111, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 1000, output = 0100, golden_output = 0100, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1011, input b = 1000, output = 0011, golden_output = 0011, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1011, input b = 1001, output = 0101, golden_output = 0101, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1011, input b = 1001, output = 0100, golden_output = 0100, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1011, input b = 1010, output = 0110, golden_output = 0110, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1011, input b = 1010, output = 0101, golden_output = 0101, carry_out = 1010, golden_carry_out = 1010, PASSED
+# input a = 1011, input b = 1011, output = 0111, golden_output = 0111, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1011, input b = 1011, output = 0110, golden_output = 0110, carry_out = 1011, golden_carry_out = 1011, PASSED
+# input a = 1011, input b = 1100, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 1100, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1011, input b = 1101, output = 1001, golden_output = 1001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 1101, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 1110, output = 1010, golden_output = 1010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 1110, output = 1001, golden_output = 1001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1011, input b = 1111, output = 1011, golden_output = 1011, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1011, input b = 1111, output = 1010, golden_output = 1010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1100, input b = 0000, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1100, input b = 0000, output = 1100, golden_output = 1100, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1100, input b = 0001, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1100, input b = 0001, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1100, input b = 0010, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1100, input b = 0010, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1100, input b = 0011, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1100, input b = 0011, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1100, input b = 0100, output = 0001, golden_output = 0001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 0100, output = 0000, golden_output = 0000, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 0101, output = 0010, golden_output = 0010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1100, input b = 0101, output = 0001, golden_output = 0001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 0110, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 0110, output = 0010, golden_output = 0010, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 0111, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1100, input b = 0111, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 1000, output = 0101, golden_output = 0101, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1100, input b = 1000, output = 0100, golden_output = 0100, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1100, input b = 1001, output = 0110, golden_output = 0110, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1100, input b = 1001, output = 0101, golden_output = 0101, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1100, input b = 1010, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1100, input b = 1010, output = 0110, golden_output = 0110, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1100, input b = 1011, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1100, input b = 1011, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1100, input b = 1100, output = 1001, golden_output = 1001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 1100, output = 1000, golden_output = 1000, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 1101, output = 1010, golden_output = 1010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1100, input b = 1101, output = 1001, golden_output = 1001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 1110, output = 1011, golden_output = 1011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 1110, output = 1010, golden_output = 1010, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1100, input b = 1111, output = 1100, golden_output = 1100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1100, input b = 1111, output = 1011, golden_output = 1011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1101, input b = 0000, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1101, input b = 0000, output = 1101, golden_output = 1101, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1101, input b = 0001, output = 1111, golden_output = 1111, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1101, input b = 0001, output = 1110, golden_output = 1110, carry_out = 0001, golden_carry_out = 0001, PASSED
+# input a = 1101, input b = 0010, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 0010, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1101, input b = 0011, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 0011, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 0100, output = 0010, golden_output = 0010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1101, input b = 0100, output = 0001, golden_output = 0001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1101, input b = 0101, output = 0011, golden_output = 0011, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1101, input b = 0101, output = 0010, golden_output = 0010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1101, input b = 0110, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 0110, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1101, input b = 0111, output = 0101, golden_output = 0101, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 0111, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 1000, output = 0110, golden_output = 0110, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1101, input b = 1000, output = 0101, golden_output = 0101, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1101, input b = 1001, output = 0111, golden_output = 0111, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1101, input b = 1001, output = 0110, golden_output = 0110, carry_out = 1001, golden_carry_out = 1001, PASSED
+# input a = 1101, input b = 1010, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 1010, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1101, input b = 1011, output = 1001, golden_output = 1001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 1011, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 1100, output = 1010, golden_output = 1010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1101, input b = 1100, output = 1001, golden_output = 1001, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1101, input b = 1101, output = 1011, golden_output = 1011, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1101, input b = 1101, output = 1010, golden_output = 1010, carry_out = 1101, golden_carry_out = 1101, PASSED
+# input a = 1101, input b = 1110, output = 1100, golden_output = 1100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 1110, output = 1011, golden_output = 1011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1101, input b = 1111, output = 1101, golden_output = 1101, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1101, input b = 1111, output = 1100, golden_output = 1100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 0000, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1110, input b = 0000, output = 1110, golden_output = 1110, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1110, input b = 0001, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 0001, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1110, input b = 0010, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 0010, output = 0000, golden_output = 0000, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 0011, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 0011, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 0100, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1110, input b = 0100, output = 0010, golden_output = 0010, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1110, input b = 0101, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 0101, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1110, input b = 0110, output = 0101, golden_output = 0101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 0110, output = 0100, golden_output = 0100, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 0111, output = 0110, golden_output = 0110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 0111, output = 0101, golden_output = 0101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 1000, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1110, input b = 1000, output = 0110, golden_output = 0110, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1110, input b = 1001, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 1001, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1110, input b = 1010, output = 1001, golden_output = 1001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 1010, output = 1000, golden_output = 1000, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 1011, output = 1010, golden_output = 1010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 1011, output = 1001, golden_output = 1001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 1100, output = 1011, golden_output = 1011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1110, input b = 1100, output = 1010, golden_output = 1010, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1110, input b = 1101, output = 1100, golden_output = 1100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 1101, output = 1011, golden_output = 1011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1110, input b = 1110, output = 1101, golden_output = 1101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 1110, output = 1100, golden_output = 1100, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1110, input b = 1111, output = 1110, golden_output = 1110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1110, input b = 1111, output = 1101, golden_output = 1101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1111, input b = 0000, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0000, output = 1111, golden_output = 1111, carry_out = 0000, golden_carry_out = 0000, PASSED
+# input a = 1111, input b = 0001, output = 0001, golden_output = 0001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0001, output = 0000, golden_output = 0000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0010, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0010, output = 0001, golden_output = 0001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1111, input b = 0011, output = 0011, golden_output = 0011, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0011, output = 0010, golden_output = 0010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0100, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0100, output = 0011, golden_output = 0011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1111, input b = 0101, output = 0101, golden_output = 0101, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0101, output = 0100, golden_output = 0100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0110, output = 0110, golden_output = 0110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0110, output = 0101, golden_output = 0101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1111, input b = 0111, output = 0111, golden_output = 0111, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 0111, output = 0110, golden_output = 0110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1000, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1000, output = 0111, golden_output = 0111, carry_out = 1000, golden_carry_out = 1000, PASSED
+# input a = 1111, input b = 1001, output = 1001, golden_output = 1001, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1001, output = 1000, golden_output = 1000, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1010, output = 1010, golden_output = 1010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1010, output = 1001, golden_output = 1001, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1111, input b = 1011, output = 1011, golden_output = 1011, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1011, output = 1010, golden_output = 1010, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1100, output = 1100, golden_output = 1100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1100, output = 1011, golden_output = 1011, carry_out = 1100, golden_carry_out = 1100, PASSED
+# input a = 1111, input b = 1101, output = 1101, golden_output = 1101, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1101, output = 1100, golden_output = 1100, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1110, output = 1110, golden_output = 1110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1110, output = 1101, golden_output = 1101, carry_out = 1110, golden_carry_out = 1110, PASSED
+# input a = 1111, input b = 1111, output = 1111, golden_output = 1111, carry_out = 1111, golden_carry_out = 1111, PASSED
+# input a = 1111, input b = 1111, output = 1110, golden_output = 1110, carry_out = 1111, golden_carry_out = 1111, PASSED
+# End time: 03:21:33 on Nov 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#######################SUMMARY of part2##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 512
+Number of FAILED: 0
+part2 is done!
+#######################Part3###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 03:21:34 on Nov 06,2021
+vlog part3.v 
+-- Compiling module FullAdder
+-- Compiling module part2
+-- Compiling module part3
+
+Top level modules:
+	part3
+End time: 03:21:34 on Nov 06,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/3/mark/run.do" work.part3_tb 
+# Start time: 03:21:34 on Nov 06,2021
+# ** Error: (vsim-3170) Could not find 'part3_tb'.
+#         Searched libraries:
+#             /nfs/ug/homes-1/z/zhaizixu/Labs/Lab3/work
+# Error loading design
+# End time: 03:21:34 on Nov 06,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+#######################SUMMARY of part3###########################
+STUD: vsim does not work... port/module name issue?
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 1
+Number of PASSED: NA
+Number of FAILED: NA
+part3 is done!
+#######################Mark of part1##########################
+MARK: 5.00
+#######################Mark of part2##########################
+MARK: 10.00
+#######################TOTAL_MARK##########################
+TOTAL_MARK: 15.00

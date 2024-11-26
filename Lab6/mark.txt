@@ -1,0 +1,249 @@
+#######################Part1###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:47:35 on Dec 08,2021
+vlog part1.v 
+-- Compiling module part1
+
+Top level modules:
+	part1
+End time: 00:47:35 on Dec 08,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/6/mark/run.do" work.part1_tb 
+# Start time: 00:47:37 on Dec 08,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part1_tb
+# Loading work.part1
+# do /cad2/ece241f/public/6/mark/run.do
+# At cycle                    1, reset = 0, w = 0
+# At cycle                    2, reset = 1, w = 0
+# At cycle                    4, reset = 1, w = 1
+# At cycle                    5, state =  0, output = 0, golden_state =  0, golden_output = 0 PASSED
+# At cycle                    6, state =  1, output = 0, golden_state =  1, golden_output = 0 PASSED
+# At cycle                    7, state =  2, output = 0, golden_state =  2, golden_output = 0 PASSED
+# At cycle                    8, state =  3, output = 0, golden_state =  3, golden_output = 0 PASSED
+# At cycle                    9, state =  5, output = 1, golden_state =  5, golden_output = 1 PASSED
+# At cycle                    9, reset = 1, w = 0
+# At cycle                   10, state =  5, output = 1, golden_state =  5, golden_output = 1 PASSED
+# At cycle                   10, reset = 1, w = 1
+# At cycle                   11, state =  4, output = 0, golden_state =  4, golden_output = 0 PASSED
+# At cycle                   11, reset = 1, w = 0
+# At cycle                   12, state =  6, output = 1, golden_state =  6, golden_output = 1 PASSED
+# At cycle                   13, state =  0, output = 0, golden_state =  0, golden_output = 0 PASSED
+# At cycle                   13, reset = 1, w = 1
+# At cycle                   14, state =  0, output = 0, golden_state =  0, golden_output = 0 PASSED
+# At cycle                   14, reset = 1, w = 0
+# At cycle                   15, state =  1, output = 0, golden_state =  1, golden_output = 0 PASSED
+# At cycle                   15, reset = 1, w = 1
+# At cycle                   16, state =  0, output = 0, golden_state =  0, golden_output = 0 PASSED
+# At cycle                   16, reset = 1, w = 1
+# At cycle                   17, state =  1, output = 0, golden_state =  1, golden_output = 0 PASSED
+# At cycle                   17, reset = 1, w = 0
+# At cycle                   18, state =  2, output = 0, golden_state =  2, golden_output = 0 PASSED
+# At cycle                   18, reset = 1, w = 0
+# At cycle                   19, state =  4, output = 0, golden_state =  4, golden_output = 0 PASSED
+# At cycle                   19, reset = 1, w = 0
+# At cycle                   20, state =  0, output = 0, golden_state =  0, golden_output = 0 PASSED
+# ** Note: $finish    : /cad2/ece241f/public/6/mark/part1_tb.sv(149)
+#    Time: 20 ns  Iteration: 0  Instance: /part1_tb
+# End time: 00:47:37 on Dec 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#######################SUMMARY of part1##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 16
+Number of FAILED: 0
+part1 is done!
+#######################Part2###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:47:37 on Dec 08,2021
+vlog part2.v 
+-- Compiling module part2
+-- Compiling module control
+-- Compiling module datapath
+
+Top level modules:
+	part2
+End time: 00:47:37 on Dec 08,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/6/mark/run.do" work.part2_tb 
+# Start time: 00:47:39 on Dec 08,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part2_tb
+# Loading work.part2
+# Loading work.control
+# Loading work.datapath
+# do /cad2/ece241f/public/6/mark/run.do
+# At cycle                    5, resetn = 0, go = 1
+# Checking Reset
+# At cycle                    5, A =   0, B =   0, C =   0, X =   0, output =   0 golden_output =   0 PASSED
+# At cycle                    5, resetn = 1, data_in =   1, go = 0
+# At cycle                    6, resetn = 1, data_in =   1, go = 1
+# At cycle                    7, resetn = 1, data_in =   2, go = 0
+# At cycle                    8, resetn = 1, data_in =   2, go = 1
+# At cycle                    9, resetn = 1, data_in =   3, go = 0
+# At cycle                   10, resetn = 1, data_in =   3, go = 1
+# At cycle                   11, resetn = 1, data_in =   4, go = 0
+# At cycle                   12, resetn = 1, data_in =   4, go = 1
+# At cycle                   18, A =   1, B =   2, C =   3, X =   4, output =  27 golden_output =  27 PASSED
+# At cycle                   18, resetn = 1, data_in =   5, go = 0
+# At cycle                   19, resetn = 1, data_in =   5, go = 1
+# At cycle                   20, resetn = 1, data_in =   4, go = 0
+# At cycle                   21, resetn = 1, data_in =   4, go = 1
+# At cycle                   22, resetn = 1, data_in =   3, go = 0
+# At cycle                   23, resetn = 1, data_in =   3, go = 1
+# At cycle                   24, resetn = 1, data_in =   2, go = 0
+# At cycle                   25, resetn = 1, data_in =   2, go = 1
+# At cycle                   31, A =   5, B =   4, C =   3, X =   2, output =  31 golden_output =  31 PASSED
+# At cycle                   31, resetn = 1, data_in =   0, go = 0
+# At cycle                   32, resetn = 1, data_in =   0, go = 1
+# At cycle                   33, resetn = 1, data_in =   0, go = 0
+# At cycle                   34, resetn = 1, data_in =   0, go = 1
+# At cycle                   35, resetn = 1, data_in =   0, go = 0
+# At cycle                   36, resetn = 1, data_in =   0, go = 1
+# At cycle                   37, resetn = 1, data_in =   0, go = 0
+# At cycle                   38, resetn = 1, data_in =   0, go = 1
+# At cycle                   44, A =   0, B =   0, C =   0, X =   0, output =   0 golden_output =   0 PASSED
+# At cycle                   44, resetn = 1, data_in =  15, go = 0
+# At cycle                   45, resetn = 1, data_in =  15, go = 1
+# At cycle                   46, resetn = 1, data_in =   5, go = 0
+# At cycle                   47, resetn = 1, data_in =   5, go = 1
+# At cycle                   48, resetn = 1, data_in =   2, go = 0
+# At cycle                   49, resetn = 1, data_in =   2, go = 1
+# At cycle                   50, resetn = 1, data_in =   1, go = 0
+# At cycle                   51, resetn = 1, data_in =   1, go = 1
+# At cycle                   57, A =  15, B =   5, C =   2, X =   1, output =  22 golden_output =  22 PASSED
+# At cycle                   57, resetn = 1, data_in =   3, go = 0
+# At cycle                   58, resetn = 1, data_in =   3, go = 1
+# At cycle                   59, resetn = 1, data_in =   6, go = 0
+# At cycle                   60, resetn = 1, data_in =   6, go = 1
+# At cycle                   61, resetn = 1, data_in =   2, go = 0
+# At cycle                   62, resetn = 1, data_in =   2, go = 1
+# At cycle                   63, resetn = 1, data_in =   2, go = 0
+# At cycle                   64, resetn = 1, data_in =   2, go = 1
+# At cycle                   70, A =   3, B =   6, C =   2, X =   2, output =  26 golden_output =  26 PASSED
+# ** Note: $finish    : /cad2/ece241f/public/6/mark/part2_tb.sv(76)
+#    Time: 70 ns  Iteration: 0  Instance: /part2_tb
+# End time: 00:47:39 on Dec 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#######################SUMMARY of part2##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 6
+Number of FAILED: 0
+part2 is done!
+#######################Part3###########################
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+Start time: 00:47:39 on Dec 08,2021
+vlog part3.v 
+-- Compiling module part3
+
+Top level modules:
+	part3
+End time: 00:47:39 on Dec 08,2021, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "/cad2/ece241f/public/6/mark/run.do" work.part3_tb 
+# Start time: 00:47:40 on Dec 08,2021
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 4.19.0-18-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.part3_tb
+# Loading work.part3
+# do /cad2/ece241f/public/6/mark/run.do
+# Checking Reset
+# Checking Quotient and Remainder
+# Your Quotient = 0000, Golden Quotient = 0000, PASSED
+# Your Remainder = 0000, Golden Remainder = 0000, PASSED
+# Checking Quotient and Remainder
+# Your Quotient = 0010, Golden Quotient = 0010, PASSED
+# Your Remainder = 0001, Golden Remainder = 0001, PASSED
+# Input Dividend =  7, Divisor =  3
+# Checking Quotient and Remainder
+# Your Quotient = 0010, Golden Quotient = 0010, PASSED
+# Your Remainder = 0001, Golden Remainder = 0001, PASSED
+# Input Dividend =  7, Divisor =  3
+# Checking Quotient and Remainder
+# Your Quotient = 0010, Golden Quotient = 0010, PASSED
+# Your Remainder = 0001, Golden Remainder = 0001, PASSED
+# Input Dividend = 12, Divisor =  3
+# Checking Quotient and Remainder
+# Your Quotient = 0100, Golden Quotient = 0100, PASSED
+# Your Remainder = 0000, Golden Remainder = 0000, PASSED
+# Input Dividend = 11, Divisor =  4
+# Checking Quotient and Remainder
+# Your Quotient = 0010, Golden Quotient = 0010, PASSED
+# Your Remainder = 0011, Golden Remainder = 0011, PASSED
+# Input Dividend = 15, Divisor = 15
+# Checking Quotient and Remainder
+# Your Quotient = 0001, Golden Quotient = 0001, PASSED
+# Your Remainder = 0000, Golden Remainder = 0000, PASSED
+# Input Dividend =  1, Divisor =  5
+# Checking Quotient and Remainder
+# Your Quotient = 0000, Golden Quotient = 0000, PASSED
+# Your Remainder = 0001, Golden Remainder = 0001, PASSED
+# ** Note: $finish    : /cad2/ece241f/public/6/mark/part3_tb.sv(129)
+#    Time: 366 ns  Iteration: 0  Instance: /part3_tb
+# End time: 00:47:40 on Dec 08,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#######################SUMMARY of part3##########################
+Number of Errors by compiling the verilog code: 0
+Number of Errors by running the simulation: 0
+Number of PASSED: 16
+Number of FAILED: 0
+part3 is done!
+#######################Mark of part1##########################
+MARK: 16.00
+#######################Mark of part2##########################
+MARK: 11.00
+#######################Mark of part3##########################
+MARK: 16.00
+#######################TOTAL_MARK##########################
+TOTAL_MARK: 43.00
